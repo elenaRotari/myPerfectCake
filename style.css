@@ -1,0 +1,85 @@
+.firstStep {
+  color: rgb(28, 121, 97);
+  text-decoration: underline;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  cursor: grab;
+}
+img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.stepTwo {
+  text-justify: center;
+  color: rgb(28, 121, 97);
+  text-decoration: underline;
+}
+ul {
+  list-style-type: circle;
+  text-shadow: 6px;
+  text-shadow: rgb(121, 87, 199);
+  color: rgb(26, 16, 163);
+}
+.stepThree {
+  color: rgb(28, 121, 97);
+  text-decoration: underline;
+}
+
+.textDescriere {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(26, 16, 163);
+}
+
+.foo {
+  color: rgb(26, 16, 163);
+  text-align: justify;
+
+  margin-right: 20px;
+}
+
+.numburingText1 {
+  color: rgb(11, 139, 135);
+}
+
+ol.numburingText1 {
+  list-style-type: none;
+  counter-reset: test5;
+}
+
+ol.numburingText1 > li:before {
+  content: counter(test5) ".";
+  counter-increment: test5;
+}
+
+ol.numburingText2 {
+  list-style-type: none;
+  counter-reset: test6;
+}
+
+ol.numburingText2 > li:before {
+  content: counter(test5) "." counter(test6);
+  counter-increment: test6;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
