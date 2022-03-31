@@ -20,11 +20,12 @@ img:hover {
   background-color:darkgrey;
   overflow: hidden;
   align-content: center;
-  
+padding: 15px;
+
   
 }
 
-.topnav a {
+.topnav > a {
   border: 8px;
   border-color: black;
   border-radius: 30px;
@@ -36,6 +37,7 @@ img:hover {
   text-decoration:none;
   font-size:larger;
   padding: 16px 20px;
+  margin-right: 10px;
  
 }
 
